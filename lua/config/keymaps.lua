@@ -27,6 +27,8 @@ vim.api.nvim_create_user_command("TypstExport", function()
   end)
 end, {})
 
+-- CompetiTest related
+
 vim.keymap.set("n", "<F5>", function()
   vim.cmd("CompetiTest run")
 end, { desc = "Run testcases" })
